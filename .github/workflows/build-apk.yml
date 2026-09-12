@@ -30,7 +30,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip -q Kafsh_v5_GitHub_Source.zip -d project
+          unzip -q Kafsh_v5_GitHub_Source_FIXED.zip -d project
 
       - name: Build APK
         working-directory: project
